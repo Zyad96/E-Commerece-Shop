@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>AddtoCartServlet</servlet-name>
+        <servlet-class>com.iti.shoppingcart.AddtoCartServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QuantityServlet</servlet-name>
+        <servlet-class>com.iti.shoppingcart.QuantityServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QuantityServlett</servlet-name>
+        <servlet-class>com.iti.shoppingcart.QuantityServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RemoveItemFromCartServlet</servlet-name>
+        <servlet-class>com.iti.shoppingcart.RemoveItemFromCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddtoCartServlet</servlet-name>
+        <url-pattern>/add-to-cart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QuantityServlet</servlet-name>
+        <url-pattern>/QuantityServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QuantityServlett</servlet-name>
+        <url-pattern>/quantity-inc-dec</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RemoveItemFromCartServlet</servlet-name>
+        <url-pattern>/remove-item-from-cart</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
