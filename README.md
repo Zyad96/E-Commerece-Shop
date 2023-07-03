@@ -27,11 +27,23 @@ Verification: A verification code is sent to the user's phone number to ensure s
 
 
 Product Catalog: Browse and search for products available on the e-commerce website.
+
+
 Shopping Cart: Users can add products to their shopping cart and proceed to checkout.
+
+
 Admin Page: An admin panel to control and manage the website's functionalities.
+
+
 User Management: Admins can manage user accounts, including creating, updating, and deleting them.
+
+
 Product Management: Admins can add, update, and delete products from the catalog.
+
+
 Order Management: Admins can view and manage all orders placed by users.
+
+
 Dashboard: A comprehensive dashboard with analytics and insights for admins.
 Prerequisites
 
